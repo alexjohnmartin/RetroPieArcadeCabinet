@@ -20,7 +20,7 @@ Legal: You should only download and play ROMs of games that you own (i.e. have b
    - https://www.amazon.ca/gp/product/B01MR4W6KE/ref=oh_aui_detailpage_o05_s00?ie=UTF8&psc=1
    - https://www.amazon.ca/gp/product/B002ZKNRMQ/ref=oh_aui_detailpage_o05_s00?ie=UTF8&psc=1 
 - 6mm birch plywood
-- 1/2" square wooden rod
+- 12" 1/2" square wooden rod
 - Short wood screws
 - PCB spacers
 - HDMI TV or monitor (for set up) 
@@ -42,6 +42,9 @@ It boils down to:
    2. Unzip the download (I used 7zip on Windows): http://www.7-zip.org/download.html
    3. Download, install and run Win32DiskImager, use this to put the image onto an SD card: https://sourceforge.net/projects/win32diskimager/
 2. Plug into TV with HDMI, USB keyboard and mouse, plug in SD card, Power with micro USB cable
+
+   ![plugging together](https://raw.githubusercontent.com/alexjohnmartin/RetroPieArcadeCabinet/master/pics/IMG_20170224_101343.jpg "plugging together")
+
 3. Configuring a controller – if your Pi is all set up, after the system has booted you should now be asked to set up a game controller; you’ll cycle through all the buttons/joysticks on your controller and the correct mappings will be set up for you. __If you are prompted to press a button that does not exist on your controller you can just press and hold any button that you do have to skip forward.__
 
    ![Configure controller](https://cloud.githubusercontent.com/assets/10035308/9140482/cf42f25c-3cee-11e5-8f91-c1fc1c57175c.png "RetroPie configre controller")
@@ -78,28 +81,40 @@ Print 4 copies of the [ScreenClamps.stl](ScreenClamp.stl) model.
 
 Laser cut the [Cabinet plans](Cabinet.svg) out of 6mm plywood. __If you use a different thickness of material the notching will not work.__
 
-Glue the bottom, back, sides and top+bottom front panels in place. __DO NOT GLUE ON THE TOP!__ I recommend only putting a small dot of glue on the inside of each notch cutout. (TODO: image)
+Glue the bottom, back, sides and top+bottom front panels in place. __DO NOT GLUE ON THE TOP!__ I recommend only putting a small dot of glue on the inside of each notch cutout.
 
-Chop 10 x 1" lengths of the 1/2" square wooden rod. Glue these inside the sides of the case so you can screw the control panel, screen panel and the small panel above the screen to them. (TODO: image)
+Insert the USB extensions into the holes in the case.
 
-Insert the buttons and joystick into the control panel; wire this to the USB adapter. (TODO: image)
+Chop 10 x 1" lengths of the 1/2" square wooden rod. Glue these inside the sides of the case so you can screw the control panel, screen panel and the small panel above the screen to them.
 
-Attach the screen to the back of the screen panel using the 3D printed clamps. Attach the display driver board to the ribbon cable. (TODO: image)
+![Glue together](https://raw.githubusercontent.com/alexjohnmartin/RetroPieArcadeCabinet/master/pics/P1030113.JPG "Glue together")
+
+Insert the buttons and joystick into the control panel; wire this to the USB adapter.
+
+![Wire up the buttons](https://raw.githubusercontent.com/alexjohnmartin/RetroPieArcadeCabinet/master/pics/P1030116.JPG "Wire up the buttons")
+
+Attach the screen to the back of the screen panel using the 3D printed clamps. Attach the display driver board to the ribbon cable.
+
+![Mounting the screen](https://raw.githubusercontent.com/alexjohnmartin/RetroPieArcadeCabinet/master/pics/P1030112.JPG "Mounting the screen")
 
 Attach the Pi to the board that goes above the screen using some PCB spacers. (TODO: image)
 
-Insert the USB extensions into the holes in the case. (TODO: image)
+![Insert the Pi](https://raw.githubusercontent.com/alexjohnmartin/RetroPieArcadeCabinet/master/pics/P1030111.JPG "Insert the Pi")
 
-Screw in the control panel. (TODO: image)
+Screw in the control panel. Glue in the board above the screen. Screw in the screen panel.
 
-Glue in the board above the screen. (TODO: image)
+![Screw on controls and screen](https://raw.githubusercontent.com/alexjohnmartin/RetroPieArcadeCabinet/master/pics/P1030108.JPG "Screw on controls and screen")
 
-Screw in the screen panel; plug the driver board on to the Pi. Plug in the USB cables. Place the top on. (TODO: image)
-
-PLAY!
+Plug the screen driver board on to the Pi. Plug in the USB cables. Place the top on. Insert a power cable and __PLAY!__
 
 ## Performance  
 
 With a Raspberry Pi 2 inside I was able to play Nintendo SNES games well, N64 games ran but were unplayable.
 
 A Raspberry Pi 3 plays N64 and Playstation 1 games nicely however you'll need an analog joystick to play these games (i.e. plug in a modern USB controller).
+
+## Player 2
+
+Of course games are more fun when played with friends and a lot of retro games are designed to have 2 (or more) players on the same machine/screen. Get a second set of controls, laser cut the [controller](Controller.ai) design from __3mm plywood__ and get player 2 to join in! 
+
+![Player 2 controller](https://raw.githubusercontent.com/alexjohnmartin/RetroPieArcadeCabinet/master/pics/P1030105.JPG "additional controller")
