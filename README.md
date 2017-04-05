@@ -38,8 +38,8 @@ I basically followed the steps listed here: https://retropie.org.uk/docs/First-I
 
 It boils down to: 
 1. Put Rasbian image on SD card
-  1. Download the image from here. 
-  2. Unzip the download (I used 7zip on Windows).
-  3. Download, install and run Win32DiskImager, use this to put the image onto an SD card
+  - Download the image from here: https://github.com/RetroPie/RetroPie-Setup/releases/download/4.2/retropie-4.2-rpi2_rpi3.img.gz
+  - Unzip the download (I used 7zip on Windows): http://www.7-zip.org/download.html
+  - Download, install and run Win32DiskImager, use this to put the image onto an SD card: https://sourceforge.net/projects/win32diskimager/
 2. Plug into TV with HDMI, USB keyboard and mouse, plug in SD card, Power with micro USB cable
 3. Configuring a controller – if your Pi is all set up, after the system has booted you should now be asked to set up a game controller; you’ll cycle through all the buttons/joysticks on your controller and the correct mappings will be set up for you. __If you are prompted to press a button that does not exist on your controller you can just press and hold any button that you do have to skip forward.__
